@@ -1,0 +1,21 @@
+-- 깃 리모트 종류
+git remote -v   
+
+-- 깃 리모트 url 설정
+git remote set-url origin https://YOURUSERNAME@github.com/USERNAME/REPOSITORY.git
+
+
+
+
+-------------------------- 설정 ---------------------------
+
+-- 깃 사용자 명 설정
+git config --global user.name "홍길동"
+git config --global user.email "support@webisfree.com"
+
+-- 깃 사용자 명 해제
+git config --unset --global user.name
+git config --unset --global user.email
+
+-- 깃 설정 리스트
+git config --list
